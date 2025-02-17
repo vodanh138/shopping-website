@@ -1,0 +1,53 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ 
+  h2 {
+    text-align: center;
+    margin-top: 50px;
+  }
+ 
+  form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .input__field {
+    margin-bottom: 20px; 
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type ="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 3px;
+  }
+      
+  button.btn-register {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .error-mess{
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  button.btn-register:hover {
+    background-color: #0056b3;
+  }

@@ -1,0 +1,60 @@
+/* styles.css */
+
+/* Styling for the container that holds all users */
+.users_display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+/* Styling for each individual user */
+.user_display {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.user_display:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the user's name */
+.user_display p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Styling for the delete button */
+.user_display button {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.user_display button:hover {
+    background-color: #ff1a1a;
+}
+
+/* Icon styling inside the delete button */
+.user_display button i {
+    margin-right: 5px;
+}

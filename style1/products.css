@@ -1,0 +1,63 @@
+
+input[type = "text"]{
+    width: 90%;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+.search_bar{
+    height: 30px;
+}
+.searching_form button{
+    height: 35px;
+    width: 5vw;
+}
+
+.btn_searching{
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page_display {
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+}
+#cartForm {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.product_display {
+    width: 350px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+}
+
+.product_display p {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.product_display img{
+    max-height: 250px;
+    max-width: 250px;
+    margin-top: 10px;
+}
+
+br {
+    clear: both;
+}
